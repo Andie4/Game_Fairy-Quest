@@ -16,6 +16,7 @@ public class PlatformManager : MonoBehaviour
         
     }
 
+    // timer of the platforms appear and desapear
     void Update()
     {
         timer += Time.deltaTime;
