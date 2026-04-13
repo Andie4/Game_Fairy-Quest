@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "com.benkuper.oscquery": "1.2.2",
-    "com.iam1337.extosc": "https://github.com/iam1337/extOSC.git#upm",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "2.0.10",
     "com.unity.cinemachine": "3.1.5",
     "com.unity.collab-proxy": "2.11.3",
@@ -16,6 +15,7 @@
     "com.unity.visualscripting": "1.9.9",
     "jp.keijiro.abcvfx": "0.0.4",
     "jp.keijiro.klak.syphon": "1.0.4",
+    "jp.keijiro.osc-jack": "2.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",

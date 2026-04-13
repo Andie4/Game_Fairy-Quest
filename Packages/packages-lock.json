@@ -1,20 +1,10 @@
 {
   "dependencies": {
-    "com.benkuper.oscquery": {
-      "version": "1.2.2",
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://package.openupm.com"
-    },
-    "com.iam1337.extosc": {
-      "version": "https://github.com/iam1337/extOSC.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "hash": "b7c2bfa81633cbcbc8cc4312e15cb5fbd0ed7d1d"
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.ai.navigation": {
       "version": "2.0.10",
@@ -262,6 +252,13 @@
       "dependencies": {
         "com.unity.modules.screencapture": "1.0.0"
       },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.osc-jack": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
     "com.unity.modules.accessibility": {

@@ -8,6 +8,7 @@ TagManager:
   - Beast
   - EndPoint1
   - EndPointTrigger
+  - wings
   layers:
   - Default
   - TransparentFX
