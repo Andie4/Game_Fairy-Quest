@@ -3,7 +3,97 @@ guid: e9551725dcae548fe9183c534c18d7eb
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boots
+    second: {fileID: 2100000, guid: e9af2bd7388f74f2fb1cf6ee3da04a71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buttons
+    second: {fileID: 2100000, guid: 729f2649ac4b342ad8ecffb118e5c351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coat
+    second: {fileID: 2100000, guid: bab01fc93a3f04856bcb6fb7aba7dc5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coat blue
+    second: {fileID: 2100000, guid: 674798d91ab8b4ad3ae7e65d1c7f0f52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: earring01
+    second: {fileID: 2100000, guid: 59467e6e61f604a6292d085021f1eab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: earring02
+    second: {fileID: 2100000, guid: a8fab3007930b40d1bc6c3759be519cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye highlights
+    second: {fileID: 2100000, guid: 0343d54e0c30448e69d74461d2653221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyebrows
+    second: {fileID: 2100000, guid: 777c904f794284736abbaf0d470da334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelashes
+    second: {fileID: 2100000, guid: 4fdb36464f3e8423ba34648997006882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: fe05179f7e9ef4ad594ef60074e788ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: e5c977b8ae8cf4b9e905b72fbfc6f99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head
+    second: {fileID: 2100000, guid: 25eaf0d58cca344e28b266e4bcb78d10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pants
+    second: {fileID: 2100000, guid: a49cadb05409b4b22b7269dd25a25338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scarf
+    second: {fileID: 2100000, guid: a4a31ad9136954f1c9c5406c284bee89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sclera
+    second: {fileID: 2100000, guid: fe81219b2796247a4ae15ce33628424d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoes sole
+    second: {fileID: 2100000, guid: d5f8a733ff48e44848bbf4fc507bd91b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: 6d05da532dc4c41328297fa1abc11def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top
+    second: {fileID: 2100000, guid: 66978058109614d6b8c87f6b1e393323, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -34,7 +124,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 3
+    meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
@@ -83,7 +173,302 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Frieren(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Circle
+      parentName: Frieren(Clone)
+      position: {x: 0.00061207777, y: 0.5301558, z: -0.0011740467}
+      rotation: {x: -0.6332686, y: -0.18044175, z: -0.15516399, w: 0.7364345}
+      scale: {x: 14.63246, y: 14.632459, z: 14.63246}
+    - name: Circle.001
+      parentName: Frieren(Clone)
+      position: {x: -0.06558363, y: 0.54755455, z: 0.13645644}
+      rotation: {x: -0.6411945, y: -0.15241684, z: -0.2810166, w: 0.69761616}
+      scale: {x: 25.284248, y: 25.284246, z: 25.28425}
+    - name: Circle.002
+      parentName: Frieren(Clone)
+      position: {x: -0.119169235, y: 0.5546673, z: 0.10486434}
+      rotation: {x: -0.6400231, y: -0.14727485, z: -0.19276148, w: 0.7290566}
+      scale: {x: 19.950214, y: 19.950212, z: 19.950212}
+    - name: Circle.003
+      parentName: Frieren(Clone)
+      position: {x: -0.1707223, y: 0.5438367, z: 0.043108914}
+      rotation: {x: -0.6717154, y: -0.132003, z: -0.29964527, w: 0.66451967}
+      scale: {x: 25.284248, y: 25.284246, z: 25.28425}
+    - name: Circle.004
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.26265657, z: 0}
+      rotation: {x: -0.64459807, y: -0.29067734, z: -0.2906773, w: 0.6445981}
+      scale: {x: 17.00125, y: 17.00125, z: 17.00125}
+    - name: Circle.005
+      parentName: Frieren(Clone)
+      position: {x: -0.0063269106, y: 0.26265657, z: 0.0055886526}
+      rotation: {x: -0.64459807, y: -0.29067734, z: -0.2906773, w: 0.6445981}
+      scale: {x: 17.00125, y: 17.00125, z: 17.00125}
+    - name: Circle.006
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.26265657, z: 0}
+      rotation: {x: -0.64459807, y: -0.29067734, z: -0.2906773, w: 0.6445981}
+      scale: {x: 17.00125, y: 17.00125, z: 17.00125}
+    - name: Circle.007
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.26265657, z: 0}
+      rotation: {x: -0.64459807, y: -0.29067734, z: -0.2906773, w: 0.6445981}
+      scale: {x: 17.00125, y: 17.00125, z: 17.00125}
+    - name: Circle.008
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.26265657, z: 0}
+      rotation: {x: -0.64459807, y: -0.29067734, z: -0.2906773, w: 0.6445981}
+      scale: {x: 17.00125, y: 17.00125, z: 17.00125}
+    - name: Circle.009
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.26265657, z: 0}
+      rotation: {x: -0.64459807, y: -0.29067734, z: -0.2906773, w: 0.6445981}
+      scale: {x: 17.00125, y: 17.00125, z: 17.00125}
+    - name: Circle.010
+      parentName: Frieren(Clone)
+      position: {x: -0.14375363, y: 0.55143505, z: 0.07252735}
+      rotation: {x: -0.6665433, y: -0.10435589, z: -0.32591024, w: 0.6622782}
+      scale: {x: 25.284248, y: 25.284246, z: 25.284252}
+    - name: Cube
+      parentName: Frieren(Clone)
+      position: {x: -0.009719191, y: 0.80727446, z: -0.07321553}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 23.070501, y: 23.070503, z: 23.070501}
+    - name: Cube.009
+      parentName: Frieren(Clone)
+      position: {x: 0.17617086, y: 0.5895838, z: 0.27161306}
+      rotation: {x: 0.5231658, y: 0.19914293, z: -0.1013192, w: 0.82241964}
+      scale: {x: 18.10968, y: 18.10968, z: 18.109678}
+    - name: Cube.010
+      parentName: Frieren(Clone)
+      position: {x: 0.18918902, y: 0.59627056, z: 0.29495516}
+      rotation: {x: 0.62960064, y: 0.1776629, z: -0.15092914, w: 0.7411204}
+      scale: {x: 9.128187, y: 9.128186, z: 10.386856}
+    - name: Cube.011
+      parentName: Frieren(Clone)
+      position: {x: 0.18918902, y: 0.59627056, z: 0.29495516}
+      rotation: {x: 0.6296006, y: 0.17766294, z: -0.15092917, w: 0.74112046}
+      scale: {x: 20.150566, y: 20.150564, z: 20.150566}
+    - name: Cube.012
+      parentName: Frieren(Clone)
+      position: {x: 0.18918902, y: 0.59627056, z: 0.29495516}
+      rotation: {x: 0.6296006, y: 0.17766294, z: -0.15092917, w: 0.74112046}
+      scale: {x: 20.150566, y: 20.150564, z: 20.150566}
+    - name: Cube.013
+      parentName: Frieren(Clone)
+      position: {x: -0.08163527, y: 0.48001525, z: -0.10271871}
+      rotation: {x: -0.7296672, y: 0.16873296, z: 0.19434126, w: 0.6335191}
+      scale: {x: 20.150566, y: 20.150566, z: 20.15057}
+    - name: Cube.014
+      parentName: Frieren(Clone)
+      position: {x: -0.13101137, y: 0.32214427, z: -0.22052133}
+      rotation: {x: -0.7296672, y: 0.16873296, z: 0.19434126, w: 0.6335191}
+      scale: {x: 20.150566, y: 20.150566, z: 20.15057}
+    - name: Cube.015
+      parentName: Frieren(Clone)
+      position: {x: -0.14708173, y: 0.29821235, z: -0.25772136}
+      rotation: {x: 0.7901874, y: -0.2983074, z: -0.27202186, w: -0.4611081}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150574}
+    - name: Cube.016
+      parentName: Frieren(Clone)
+      position: {x: -0.12609683, y: 0.35174537, z: -0.20737153}
+      rotation: {x: -0.6608993, y: 0.058204826, z: 0.03933695, w: 0.7471793}
+      scale: {x: 9.128186, y: 9.128187, z: 10.386856}
+    - name: Cube.017
+      parentName: Frieren(Clone)
+      position: {x: -0.050661698, y: -0.016230166, z: -0.08360846}
+      rotation: {x: -0.671559, y: 0.044342443, z: -0.0069682603, w: 0.7395902}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: Cube.018
+      parentName: Frieren(Clone)
+      position: {x: 0.11820546, y: -0.012572527, z: -0.07652688}
+      rotation: {x: -0.67110276, y: -0.07756184, z: 0.051959477, w: 0.7354628}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: Empty
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.6716526, y: -0.22109452, z: -0.22109452, w: 0.67165256}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: Cube.005
+      parentName: Empty
+      position: {x: 0.0007093577, y: -0.00004222706, z: 0.0009833055}
+      rotation: {x: 0, y: 0, z: 0.29036573, w: 0.95691574}
+      scale: {x: 0.07382324, y: 0.07382324, z: 0.07382324}
+    - name: Cube.006
+      parentName: Empty
+      position: {x: 0.0012083647, y: 0.00034094328, z: 0.0011967822}
+      rotation: {x: 0, y: 0, z: 0.29036576, w: 0.95691574}
+      scale: {x: 0.07382324, y: 0.06304171, z: 0.07382324}
+    - name: Cube.007
+      parentName: Empty
+      position: {x: 0.00069695635, y: -0.000023674145, z: 0.00008669555}
+      rotation: {x: 0, y: 0, z: 0.29036573, w: 0.95691574}
+      scale: {x: 0.07382324, y: 0.07382324, z: 0.07382324}
+    - name: Cube.008
+      parentName: Empty
+      position: {x: 0.00070208695, y: -0.000031349955, z: 0.00042110262}
+      rotation: {x: 0, y: 0, z: 0.29036573, w: 0.95691574}
+      scale: {x: 0.07382324, y: 0.07382324, z: 0.07382324}
+    - name: Cube.019
+      parentName: Empty
+      position: {x: -0.0011196958, y: 0.00034095245, z: 0.0011010731}
+      rotation: {x: 0.9911006, y: 0.012593943, z: -0.09646582, w: -0.09085865}
+      scale: {x: -0.07382324, y: -0.073823236, z: -0.073823236}
+    - name: Cube.020
+      parentName: Empty
+      position: {x: -0.0012933585, y: 0.000522194, z: 0.00024002731}
+      rotation: {x: 0.9911006, y: 0.012593943, z: -0.09646582, w: -0.09085865}
+      scale: {x: -0.07382324, y: -0.073823236, z: -0.073823236}
+    - name: Cube.021
+      parentName: Empty
+      position: {x: -0.0012285807, y: 0.00045370247, z: 0.00056100456}
+      rotation: {x: 0.9911006, y: 0.012593943, z: -0.09646582, w: -0.09085865}
+      scale: {x: -0.07382324, y: -0.073823236, z: -0.073823236}
+    - name: Cube.022
+      parentName: Empty
+      position: {x: -0.001694605, y: 0.0003169076, z: 0.0014331896}
+      rotation: {x: 0.9911006, y: 0.01259393, z: -0.09646577, w: -0.09085866}
+      scale: {x: -0.07382324, y: -0.06304171, z: -0.07382324}
+    - name: legs.001
+      parentName: Empty
+      position: {x: 0.0007086693, y: -0.000034192464, z: 0.0031669226}
+      rotation: {x: 0, y: 0, z: 0.29036573, w: 0.95691574}
+      scale: {x: 0.07382324, y: 0.07382324, z: 0.07382324}
+    - name: legs.002
+      parentName: Empty
+      position: {x: -0.00070103025, y: -0.000040233692, z: 0.003210022}
+      rotation: {x: 0.9911006, y: 0.012593943, z: -0.09646582, w: -0.09085865}
+      scale: {x: -0.07382324, y: -0.073823236, z: -0.073823236}
+    - name: NurbsPath
+      parentName: Frieren(Clone)
+      position: {x: -0.011735373, y: 0.85132444, z: 0.08354403}
+      rotation: {x: -0.7429761, y: -0.016993795, z: 0.015300095, w: 0.6689272}
+      scale: {x: 4.9344907, y: 4.9344907, z: 4.934491}
+    - name: NurbsPath.001
+      parentName: Frieren(Clone)
+      position: {x: -0.03352637, y: 0.9924101, z: -0.014502808}
+      rotation: {x: -0.7429761, y: -0.016993795, z: 0.015300095, w: 0.6689272}
+      scale: {x: 4.9344907, y: 4.9344907, z: 4.934491}
+    - name: NurbsPath.002
+      parentName: Frieren(Clone)
+      position: {x: 0.000040891864, y: -0.0006455695, z: -0.016393706}
+      rotation: {x: -0.7208693, y: -0.0058304346, z: 0.0042657596, w: 0.69303346}
+      scale: {x: 4.934491, y: 4.934491, z: 4.9344907}
+    - name: NurbsPath.003
+      parentName: Frieren(Clone)
+      position: {x: -0.1311524, y: 0.96709317, z: -0.11115344}
+      rotation: {x: -0.6784344, y: -0.19931592, z: -0.21112409, w: 0.674853}
+      scale: {x: 3.4886036, y: 3.4886034, z: 3.4886036}
+    - name: NurbsPath.004
+      parentName: Frieren(Clone)
+      position: {x: -0.1311524, y: 0.96709317, z: -0.11115344}
+      rotation: {x: -0.6784344, y: -0.19931592, z: -0.21112409, w: 0.674853}
+      scale: {x: 3.4886036, y: 3.4886034, z: 3.4886036}
+    - name: NurbsPath.005
+      parentName: Frieren(Clone)
+      position: {x: 0.13301586, y: 0.96986264, z: -0.11115344}
+      rotation: {x: 0.7068325, y: 0.019692216, z: 0.01969222, w: 0.7068325}
+      scale: {x: -3.4886034, y: -3.4886036, z: -3.4886034}
+    - name: NurbsPath.006
+      parentName: Frieren(Clone)
+      position: {x: 0.13301586, y: 0.96986264, z: -0.11115344}
+      rotation: {x: 0.7068325, y: 0.019692216, z: 0.01969222, w: 0.7068325}
+      scale: {x: -3.4886034, y: -3.4886036, z: -3.4886034}
+    - name: NurbsPath.007
+      parentName: Frieren(Clone)
+      position: {x: 0.000040891864, y: -0.0006455695, z: -0.016393706}
+      rotation: {x: -0.7208693, y: -0.0058304346, z: 0.0042657596, w: 0.69303346}
+      scale: {x: 4.934491, y: 4.934491, z: 4.9344907}
+    - name: NurbsPath.008
+      parentName: Frieren(Clone)
+      position: {x: -0.09159484, y: -0.0014833212, z: 0.04051773}
+      rotation: {x: -0.692855, y: -0.20068502, z: -0.2109041, w: 0.65969455}
+      scale: {x: 4.9344907, y: 4.934491, z: 4.934491}
+    - name: NurbsPath.009
+      parentName: Frieren(Clone)
+      position: {x: 0.055987928, y: -0.0036747456, z: -0.016393706}
+      rotation: {x: -0.7204273, y: -0.025903666, z: 0.023564396, w: 0.69264585}
+      scale: {x: 4.934491, y: 4.934491, z: 4.9344907}
+    - name: NurbsPath.010
+      parentName: Frieren(Clone)
+      position: {x: 0.000040891864, y: -0.0006455695, z: -0.016393706}
+      rotation: {x: -0.7208693, y: -0.0058304346, z: 0.0042657596, w: 0.69303346}
+      scale: {x: 4.934491, y: 4.934491, z: 4.9344907}
+    - name: NurbsPath.011
+      parentName: Frieren(Clone)
+      position: {x: 0.055987928, y: -0.0036747456, z: -0.016393706}
+      rotation: {x: -0.7204273, y: -0.025903666, z: 0.023564396, w: 0.69264585}
+      scale: {x: 4.934491, y: 4.934491, z: 4.9344907}
+    - name: Sphere.003
+      parentName: Frieren(Clone)
+      position: {x: -0.10357487, y: 0.72880447, z: 0.1167358}
+      rotation: {x: -0.07626011, y: -0.11544339, z: 0.0006673711, w: 0.99038213}
+      scale: {x: 0.549676, y: 0.54967606, z: 0.23618776}
+    - name: Sphere.004
+      parentName: Frieren(Clone)
+      position: {x: 0.05961161, y: 0.7363238, z: 0.11904722}
+      rotation: {x: -0.078601845, y: -0.043688085, z: -0.0016901295, w: 0.9959469}
+      scale: {x: 0.549676, y: 0.5496761, z: 0.23618776}
+    - name: Vert
+      parentName: Frieren(Clone)
+      position: {x: -0.008696204, y: 0.7849234, z: -0.020005586}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: Vert.001
+      parentName: Frieren(Clone)
+      position: {x: -0.008696204, y: 0.7849234, z: -0.020005586}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: buttons
+      parentName: Frieren(Clone)
+      position: {x: -0.095308006, y: 0.3421477, z: 0.16335523}
+      rotation: {x: -0.10354557, y: -0.26637152, z: -0.04669319, w: 0.9571543}
+      scale: {x: 1.158387, y: 1.158387, z: 0.52589816}
+    - name: ears
+      parentName: Frieren(Clone)
+      position: {x: -0.008696204, y: 0.7819607, z: -0.020005586}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: ears.001
+      parentName: Frieren(Clone)
+      position: {x: 0.026916644, y: 0.0038632154, z: 0.061921652}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: eyebrows
+      parentName: Frieren(Clone)
+      position: {x: -0.05418116, y: 0.82219166, z: 0.14307293}
+      rotation: {x: -0.029736409, y: -0.058751978, z: 0.022609511, w: 0.99757344}
+      scale: {x: 1.2772539, y: 1.277254, z: 1.2772539}
+    - name: eyelashes.001
+      parentName: Frieren(Clone)
+      position: {x: -0.008696204, y: 0.7819607, z: -0.020005586}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: eyes
+      parentName: Frieren(Clone)
+      position: {x: -0.0087556755, y: 0.7832601, z: -0.020142406}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: head
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.59195924, z: 0}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
+    - name: neck
+      parentName: Frieren(Clone)
+      position: {x: -0, y: 0.5749068, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 5.5147295, y: 5.5147295, z: 5.5147295}
+    - name: sclera
+      parentName: Frieren(Clone)
+      position: {x: -0.0087556755, y: 0.7832601, z: -0.020142406}
+      rotation: {x: -0.7429761, y: -0.016993793, z: 0.015300098, w: 0.6689272}
+      scale: {x: 20.150566, y: 20.150566, z: 20.150566}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
