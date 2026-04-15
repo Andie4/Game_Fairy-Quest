@@ -37,6 +37,7 @@ public class IntroController : MonoBehaviour
         if (doJump)
         {
             doJump = false;
+            PlayerPrefs.SetFloat("TotalTime", 0f);
             SceneManager.LoadScene("Level 1");
         }
     }

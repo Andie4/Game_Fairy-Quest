@@ -1,25 +1,28 @@
 using UnityEngine;
 using TMPro;
-using sceneManagement = UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class TimerManager : MonoBehaviour
-
 {
     public float time; 
     public TextMeshProUGUI timerText;
 
-
+    void Start()
+    {
+        // result of the 2 levels
+        time = PlayerPrefs.GetFloat("TotalTime", 0f);
+    }
+    
     // Update is called once per frame
     void Update()
     {
         time += Time.deltaTime;
-        timerText.text = time.ToString("F1"); 
+        timerText.text = time.ToString("F1");
+    }
 
-        // récupérer le temps du level 1 sur la deuxième scène 
-        if (sceneManagement.SceneManager.GetActiveScene().name == "Level 2")
-        {
-            float timeLevel1 = PlayerPrefs.GetFloat("TimeLevel1", 0f);
-            timerText.text = "Time Level 1: " + timeLevel1.ToString("F1") + "s";
-        }
+    void OnDestroy()
+    {
+        // save the timer before leave the scene 
+        PlayerPrefs.SetFloat("TotalTime", time);
     }
 }
