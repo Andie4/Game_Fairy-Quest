@@ -725,7 +725,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -7402517394890126124, guid: e9551725dcae548fe9183c534c18d7eb, type: 3}
+  - {fileID: -876546973899608171, guid: a2407126e3372f64cacb75ed466a5621, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4710,7 +4710,7 @@ Transform:
   m_GameObject: {fileID: 1128174459}
   serializedVersion: 2
   m_LocalRotation: {x: -0.1515629, y: -0.6944442, z: 0.15331888, w: 0.6864906}
-  m_LocalPosition: {x: -585.7503, y: 1147.6941, z: 1068.588}
+  m_LocalPosition: {x: -556, y: 1137, z: 1074}
   m_LocalScale: {x: 54.62683, y: 54.62683, z: 54.62682}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5024,6 +5024,7 @@ GameObject:
   - component: {fileID: 1226113926}
   - component: {fileID: 1226113925}
   - component: {fileID: 1226113928}
+  - component: {fileID: 1226113929}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5149,6 +5150,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1226113929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226113924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Klak.Spout.Runtime::Klak.Spout.SpoutSender
+  _spoutName: Spout Sender
+  _keepAlpha: 0
+  _captureMethod: 0
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 0}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!1001 &1228680498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5704,7 +5723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1305738828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5719,7 +5738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Klak.Syphon.Runtime::Klak.Syphon.SyphonServer
   <KeepAlpha>k__BackingField: 0
   <Resources>k__BackingField: {fileID: 11400000, guid: 4f35cf6570beb4605a26cd2d71c4f8fc, type: 2}
-  _serverName: Syphon Server
+  _serverName: UnitySyphon
   _captureMethod: 0
   _sourceCamera: {fileID: 0}
   _sourceTexture: {fileID: 0}
@@ -7278,13 +7297,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.6
-  m_fontSizeBase: 55.6
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

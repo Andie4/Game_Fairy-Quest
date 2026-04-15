@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67.6, y: 22}
+  m_AnchoredPosition: {x: 67.6, y: -104}
   m_SizeDelta: {x: 393.532, y: 36.805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203048656
@@ -313,9 +313,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "**** est une f\xE9e qui a perdue ses ailes, un h\xE9risson jaloux de ne
-    pas pouvoir voler, les lui a vol\xE9es et abandonn\xE9es dans la for\xEAt !\n\n\nAide-moi
-    \xE0 les r\xE9cup\xE9rer mais attention le chemin sera p\xE9rilleux ...\n"
+  m_text: "Frieren est une f\xE9e qui a perdue ses ailes, un h\xE9risson jaloux de
+    ne pas pouvoir voler, les lui a vol\xE9es et les a abandonn\xE9es dans la for\xEAt
+    !\n\n\nAide-moi \xE0 les r\xE9cup\xE9rer mais attention le chemin sera p\xE9rilleux
+    ...\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -429,8 +430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -7.8266}
-  m_SizeDelta: {x: 949.946, y: 474.973}
+  m_AnchoredPosition: {x: -23, y: 0}
+  m_SizeDelta: {x: 1160.944, y: 580.472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393583833
 MonoBehaviour:
@@ -660,8 +661,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19.643005, y: -74}
-  m_SizeDelta: {x: -1045.835, y: -748.046}
+  m_AnchoredPosition: {x: 19.643005, y: -29.048996}
+  m_SizeDelta: {x: -1045.835, y: -837.948}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785799490
 MonoBehaviour:
@@ -840,7 +841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.232, y: 31.00001}
+  m_AnchoredPosition: {x: 8.231995, y: -97}
   m_SizeDelta: {x: 554.015, y: 325.531}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454030955
@@ -1064,6 +1065,7 @@ GameObject:
   - component: {fileID: 1761209437}
   - component: {fileID: 1761209436}
   - component: {fileID: 1761209439}
+  - component: {fileID: 1761209440}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1189,6 +1191,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1761209440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761209435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d59ae4f317f9b4f8b8d64f71768aaea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Klak.Syphon.Runtime::Klak.Syphon.SyphonServer
+  <KeepAlpha>k__BackingField: 0
+  <Resources>k__BackingField: {fileID: 11400000, guid: 4f35cf6570beb4605a26cd2d71c4f8fc, type: 2}
+  _serverName: UnitySyphon
+  _captureMethod: 0
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 0}
 --- !u!1 &2065796564
 GameObject:
   m_ObjectHideFlags: 0
